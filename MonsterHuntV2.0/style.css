@@ -1,0 +1,152 @@
+.mainBox{
+   display: flex;
+   padding-left: 20%;
+   padding-right: 20%;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.homePage{
+    padding-top: 5%;
+    font-size: x-large;
+}
+.box{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border: 0.5px solid lightgray;
+    gap: 25px;
+    box-shadow: 0px 1px 1px grey;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 120%;
+    height: 55%;
+    border-radius: 5%;
+    border: 0.6px outset lightgray;
+    
+}
+.newGame{
+    background-color: #aaffb0;
+    color: rgb(24, 11, 11);
+}
+.newGame:hover{
+    background-color:#6bee73 ;
+}
+.attack{
+    background-color: #ff7367;
+    color: black;
+}
+.attack:hover{
+    background-color: #f54f40;
+    
+}
+.specAttack{
+    background-color: orange;
+    color: black;
+}
+.specAttack:hover{
+    background-color: rgb(224, 146, 0);
+    
+}
+.firstAid{
+    background-color: #aaffb0;
+    color: black;
+}
+.firstAid:hover{
+    background-color:#6bee73 ;
+}
+.giveUp{
+    background-color: white;
+    color: black;
+}
+.giveUp:hover{
+    background-color: rgb(196, 187, 187);
+    
+}
+.titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+                  
+.playerHealthBar{
+    width: 300px ;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+}
+.enemyHealthBar{
+    width: 300px ;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+}
+.playerHealth{
+    height: 39.8px;
+    background: green;
+    width: 300px;
+    text-align: center;
+    transition: width 500ms;
+}
+.enemyHealth{
+    height: 39.8px;
+    background: green;
+    width: 300px;
+    text-align: center;
+    transition: width 500ms;
+}
+.monster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.logBox{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    gap: 1px;
+    font-size: small;
+    box-shadow: 0px 1px 1px grey;
+}
+.playerLog{
+    width: 80%;
+    color: blue;
+    background-color: rgb(186, 182, 231);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.enemyLog{
+    color: rgb(236, 14, 14);
+    background-color: rgb(231, 189, 189);
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.healLog{
+    color: rgb(52, 212, 20);
+    background-color: rgb(190, 223, 181);
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
